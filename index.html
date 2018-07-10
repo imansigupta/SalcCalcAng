@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salary Calculator</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <!-- <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script> -->
+    <script src="js/app.js"></script>
+    <script src="js/custom/factory.js"></script>
+    <script src="js/custom/controller.js"></script>
+</head>
+<body ng-app="myapp">
+    <fieldset ng-controller="myctrl">
+        <legend>Salary Calculator</legend>
+        <form class="form-group" >
+                <input type="number" class="form-control" placeholder="Enter your salary here" ng-model="salary">
+                <button ng-click="compute()">Submit</button>
+        </form>
+     <h3>Computed salary is as per follows :-</h3>
+     <p >HRA is <span>{{hra}}</span></p>
+        <p >DA is <span >{{da}}</span></p>
+        <p>TA is <span >{{ta}}</span></p>
+        <p>PF is <span >{{pf}}</span></p>
+        <p>GS is <span >{{gs}}</span></p>
+        <p>TAX is <span>{{tax}}</span></p>
+        <p>NS is <span >{{ns}}</span></p>
+    </fieldset>
+   
+
+   
+
+</body>
+</html>

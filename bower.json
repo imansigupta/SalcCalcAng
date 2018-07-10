@@ -1,0 +1,28 @@
+{
+  "name": "salaryCalcAng",
+  "authors": [
+    "imansigupta <guptamansi742@gmail.com>"
+  ],
+  "description": "Angular Js Salary Calculator",
+  "main": "index.html",
+  "keywords": [
+    "MVC",
+    "Salary",
+    "Calculator",
+    "angulra",
+    "js"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.2",
+    "bootstrap": "^4.1.1"
+  }
+}
